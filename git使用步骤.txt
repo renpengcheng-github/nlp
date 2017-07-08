@@ -1,0 +1,12 @@
+1 初始化
+# git init
+2 连接
+# Git remote add origin git@github.com:renpengcheng-github/nlp.git    #（项目名.git）
+如果连接已经存在，先删除再连接
+# git remote rm origin 
+3
+第一次使用 初始化时候先把项目整个下载
+# git pull origin master
+# git add *
+# git commit -m "commit"
+# git push origin master
